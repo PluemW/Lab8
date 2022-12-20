@@ -3,6 +3,13 @@ using namespace std;
 
 char before(char x){
 	//Write your function definition here
+	if(x=='A'){
+		return x='Z';
+	}if('A'< x && x <'['){
+		return x=x-1;
+	}else{
+		return x='0';
+	}
 }
 
 int main(){
